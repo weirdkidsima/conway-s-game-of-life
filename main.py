@@ -2,7 +2,7 @@ import pygame as pg
 from random import randint
 from copy import deepcopy
 
-RESOLUTION = WIDTH, HEIGHT = 1500, 900
+RESOLUTION = WIDTH, HEIGHT = 1280, 720 
 CELL = 10
 WQTY = WIDTH // CELL
 HQTY = HEIGHT // CELL
