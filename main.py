@@ -49,7 +49,7 @@ while True:
         if event.type == pg.QUIT:
             exit()
 
-    # draw  cells
+    # DRAW  CELLS
     for x in range(1, WQTY - 1):
         for y in range(1, HQTY - 1):
             if existField[y][x]:
